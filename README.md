@@ -11,7 +11,7 @@ doesn't include an exception, the services use the @SneakyThrows annotation to a
 JsonProcessingException to pass back to the caller. The only difference being
 [TimedSneakyService] also annotates accept() with [@Timed].
 
-The [SneakyServiceTest] succeeds. The same tests exist in [TimedSneakyServiceTEst] but
+The [SneakyServiceTest] succeeds. The same tests exist in [TimedSneakyServiceTest] but
 the badJson_throwsJsonProcessingException() test fails with an unexpected
 `java.lang.reflect.UndeclaredThrowableException`.
 
