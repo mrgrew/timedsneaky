@@ -9,7 +9,6 @@ import org.springframework.context.ApplicationContext;
 import java.util.function.Consumer;
 
 import static com.moneymedia.timedsneaky.Constants.SNEAKY;
-import static com.moneymedia.timedsneaky.Constants.TIMED_SNEAKY;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @SpringBootTest
